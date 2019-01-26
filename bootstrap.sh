@@ -84,7 +84,7 @@ if [[ "$HOME" != /u* ]]; then
   safe_download ./$mainDir/Makefile https://raw.githubusercontent.com/adrw/docker-cs350-os161/master/Makefile
 
   # get the prebuilt Docker image
-  docker pull adrw/cs350-os161:latest
+  docker pull andrewparadi/cs350-os161:latest
 fi
 
 status a "🍺  docker-cs350-os161 bootstrap Fin."
